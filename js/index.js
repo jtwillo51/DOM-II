@@ -1,6 +1,6 @@
 // Your code goes here
 
-// Mouseover event
+//Mouseover event
 const logo = document.querySelector('.logo-heading');
 logo.addEventListener('mouseenter', () => {
     logo.style.transform = "scale(1.2)";
@@ -14,8 +14,8 @@ logo.addEventListener('mouseleave', () => {
 const anchor = document.querySelectorAll('a');
 anchor.forEach(item => {
     item.addEventListener('keydown', () => {
-        anchor.style.color = "blue"
-        console.log("is this working?");
+        item.style.background = "blue"
+        console.log('red');
     });
 })
 
